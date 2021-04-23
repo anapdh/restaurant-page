@@ -4,6 +4,7 @@
   "description": "my first JS project",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --mode development",
     "test": "test"
   },
   "keywords": [
