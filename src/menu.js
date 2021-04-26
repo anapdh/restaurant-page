@@ -24,8 +24,8 @@ const Menu = () => {
         menu1.innerHTML = 'CHICKEN';
         list.appendChild(menu1);
           let menuParagraph1 = document.createElement('p');
-          menuParagraph1.setAttribute('class', 'm-3 pb-3');
-          menuParagraph1.innerHTML = 'Check out our menu.';
+          menuParagraph1.setAttribute('class', 'my-3 pb-3');
+          menuParagraph1.innerHTML = 'We use ALWAYS FRESH, NEVER EVER FROZEN® premium chicken breast tenderloins to make the most tender chicken fingers possible.';
           list.appendChild(menuParagraph1);
 
         const menu2 = document.createElement('h1');
@@ -34,8 +34,8 @@ const Menu = () => {
         menu2.innerHTML = 'BARBECUE';
         list.appendChild(menu2);
           const menuParagraph2 = document.createElement('p');
-          menuParagraph2.setAttribute('class', 'm-3 pb-3');
-          menuParagraph2.innerHTML = 'Check out our menu.';
+          menuParagraph2.setAttribute('class', 'my-3 pb-3');
+          menuParagraph2.innerHTML = 'Full Rack. Slow-cooked to fall off the bone tenderness. Slathered with your choice of sauce: - Spicy Texas BBQ sauce - Honey BBQ sauce';
           list.appendChild(menuParagraph2);
 
         const menu3 = document.createElement('h1');
@@ -44,8 +44,8 @@ const Menu = () => {
         menu3.innerHTML = 'FISH';
         list.appendChild(menu3);
           const menuParagraph3 = document.createElement('p');
-          menuParagraph3.setAttribute('class', 'm-3 pb-3');
-          menuParagraph3.innerHTML = 'Check out our menu.';
+          menuParagraph3.setAttribute('class', 'my-3 pb-3');
+          menuParagraph3.innerHTML = 'Blackened salmon fillet grilled to perfection. 6 oz. Served with your choice of two sides.';
           list.appendChild(menuParagraph3);
 
         return list;

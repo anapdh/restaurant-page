@@ -3,11 +3,22 @@ const Contact = () => {
   const contactContent = document.createElement('div');
   contactContent.setAttribute('class', 'container');
 
-  const contactText = document.createElement('h3');
-  contactText.setAttribute('class', 'h3 my-3');
-  contactText.innerHTML = 'DFHIUSHFUIshfuiHSAFIUSH';
+  const contactHeader = document.createElement('h1');
+  contactHeader.setAttribute('class', 'text-center my-3 pt-3 mb-5');
+  contactHeader.innerHTML = 'CONTACT';
 
-  contactContent.appendChild(contactText);
+  const contactAddress = document.createElement('h5');
+  contactAddress.setAttribute('id', 'contact-ad');
+  contactAddress.setAttribute('class', 'text-center');
+  contactAddress.innerHTML = 'Address: 2160 Haines Ave. Rapid City, SD 57701';
+
+  const contactParagraph = document.createElement('p');
+  contactParagraph.setAttribute('class', 'my-3 pb-3 text-center');
+  contactParagraph.innerHTML = 'Phone: 605-394-0338';
+
+  contactContent.appendChild(contactHeader);
+  contactContent.appendChild(contactAddress);
+  contactContent.appendChild(contactParagraph);
 
   return contactContent;
 

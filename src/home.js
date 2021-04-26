@@ -4,8 +4,8 @@ const Home = () => {
   homeContent.setAttribute('class', 'container');
 
   const homeHeader = document.createElement('h1');
-  homeHeader.setAttribute('class', 'text-center my-3 pt-3');
-  homeHeader.innerHTML = 'My Restaurant';
+  homeHeader.setAttribute('class', 'text-center my-3 pt-3 mb-5');
+  homeHeader.innerHTML = 'MY RESTAURANT';
 
   const homeImage = document.createElement('img');
   homeImage.setAttribute('class', 'bg-image');
