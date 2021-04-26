@@ -11,12 +11,10 @@ content.appendChild(navbar);
 const home = Home();
 content.appendChild(home);
 
-// FOR CLICK
+// NAVBAR CLICKING
 
 const menu = Menu();
-// content.appendChild(menu)
 const contact = Contact();
-// content.appendChild(contact);
 
 const link1 = document.getElementById('home');
 link1.addEventListener('click', () => {
@@ -32,8 +30,3 @@ const link3 = document.getElementById('contact');
 link3.addEventListener('click', () => {
   content.replaceChild(contact, content.childNodes[1]);
 });
-
-// const menu = Menu ();
-// content.appendChild(menu);
-// const contact = Contact();
-// content.appendChild(contact);
