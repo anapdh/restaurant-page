@@ -5,6 +5,11 @@ import Menu from './menu';
 import Navbar from './navbar';
 import Contact from './contact';
 
+function italicsBody() {
+  document.body.style.fontFamily = "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+}
+italicsBody()
+
 const content = document.getElementById('content');
 const navbar = Navbar();
 content.appendChild(navbar);

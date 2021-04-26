@@ -4,7 +4,7 @@ const Menu = () => {
   menuContent.setAttribute('class', 'container');
 
   const menuHeader = document.createElement('h1');
-  menuHeader.setAttribute('class', 'text-center my-3 pt-3 mb-5');
+  menuHeader.setAttribute('class', 'text-center my-3 pt-5 mb-5');
   menuHeader.innerHTML = 'MENU';
 
   const menuList = document.createElement('ul');

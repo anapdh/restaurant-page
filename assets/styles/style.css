@@ -17,6 +17,14 @@ body {
   text-shadow: black 3px 3px;
 }
 
+.custom-font {
+  font-size: 58px;
+}
+
+.custom-font2 {
+  font-size: 32px;
+}
+
 .navbar {
   background-color: rgb(92,2,0)
 }

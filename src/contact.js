@@ -4,7 +4,7 @@ const Contact = () => {
   contactContent.setAttribute('class', 'container');
 
   const contactHeader = document.createElement('h1');
-  contactHeader.setAttribute('class', 'text-center my-3 pt-3 mb-5');
+  contactHeader.setAttribute('class', 'text-center my-3 pt-5 mb-5');
   contactHeader.innerHTML = 'CONTACT';
 
   const contactAddress = document.createElement('h5');
