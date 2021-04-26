@@ -2,22 +2,17 @@
 const Home = () => {
 
   const homeContent = document.createElement('div');
-  homeContent.setAttribute('class', 'container');
+  homeContent.setAttribute('class', 'homepage container-fluid');
 
   const homeHeader = document.createElement('h1');
-  homeHeader.setAttribute('class', 'text-center my-3 p-3');
-  homeHeader.innerHTML = 'MY RESTAURANT';
-
-  const homeImage = document.createElement('img');
-  homeImage.setAttribute('class', 'bg-image');
-  homeImage.setAttribute('src', '/assets/imgs/pf-br.jpg');
+  homeHeader.setAttribute('class', 'home-header');
+  homeHeader.innerHTML = 'RESTAURANT';
 
   const homeText = document.createElement('h3');
-  homeText.setAttribute('class', 'h3 my-3 text-center p-3');
-  homeText.innerHTML = 'The most famous dishes in the world ready for delivery.';
+  homeText.setAttribute('class', 'home-text h3');
+  homeText.innerHTML = 'A better experience for the most famous dishes.';
 
   homeContent.appendChild(homeHeader);
-  homeContent.appendChild(homeImage);
   homeContent.appendChild(homeText);
 
   return homeContent;

@@ -1,28 +1,34 @@
-html {
-  padding-top: 40px;
+body {
+  padding-top: 25px;
 }
 
-h1 {
+.homepage {
+  background-image: url('/assets/imgs/dinnerbg.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
-.bg-image {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: gray 2px 2px 2px 2px;
+.home-header,
+.home-text {
+  color: white;
+  padding-top: 100px;
+  margin-left: 70px;
+  text-shadow: black 3px 3px;
 }
 
 .navbar {
-  background-color:rgb(146, 27, 27);
+  background-color: rgb(92,2,0)
 }
 
 .nav-item a:hover {
-  color: black
+  color: rgb(211, 170, 170)
 }
 
 .nav-item a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #menu1 {
