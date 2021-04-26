@@ -7,9 +7,9 @@ const Menu = () => {
   menuHeader.setAttribute('class', 'text-center my-3 pt-3');
   menuHeader.innerHTML = 'My Restaurant';
 
-  const menuImage = document.createElement('img');
-  menuImage.setAttribute('class', 'bg-image');
-  menuImage.setAttribute('src', '/assets/imgs/pf-br.jpg');
+  // const menuImage = document.createElement('img');
+  // menuImage.setAttribute('class', 'bg-image');
+  // menuImage.setAttribute('src', '/assets/imgs/pf-br.jpg');
 
   const menuText = document.createElement('h3');
   menuText.setAttribute('class', 'h3 my-3');
@@ -20,7 +20,7 @@ const Menu = () => {
   menuParagraph.innerHTML = 'Check out our menu.';
 
   menuContent.appendChild(menuHeader);
-  menuContent.appendChild(menuImage);
+  // menuContent.appendChild(menuImage);
   menuContent.appendChild(menuText);
   menuContent.appendChild(menuParagraph);
 

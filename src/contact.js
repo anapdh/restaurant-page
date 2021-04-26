@@ -1,11 +1,11 @@
 const Contact = () => {
 
-  const ContactContent = document.createElement('div');
-  navbarContent.setAttribute('class', 'container');
+  const contactContent = document.createElement('div');
+  contactContent.setAttribute('class', 'container');
 
-  const ContactText = document.createElement('h3');
+  const contactText = document.createElement('h3');
   contactText.setAttribute('class', 'h3 my-3');
-  contactText.innerHTML = 'gdfhhgh.';
+  contactText.innerHTML = 'DFHIUSHFUIshfuiHSAFIUSH';
 
   contactContent.appendChild(contactText);
 
