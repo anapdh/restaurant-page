@@ -1,5 +1,28 @@
+html {
+  padding-top: 40px;
+}
+
+h1 {
+}
+
 .bg-image {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: gray 2px 2px 2px 2px;
+}
+
+.navbar {
+  background-color:rgb(146, 27, 27);
+}
+
+.nav-item a:hover {
+  color: black
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 #menu1 {
@@ -8,7 +31,7 @@
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  padding-top: 17%;
+  padding-top: 120px;
   color: white;
   text-shadow: black 2px 2px;
   font-size: 50px;
@@ -20,7 +43,7 @@
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  padding-top: 17%;
+  padding-top: 120px;
   color: white;
   text-shadow: black 2px 2px;
   font-size: 50px;
@@ -32,7 +55,7 @@
   width: 100%;
   height: 300px;
   border-radius: 10px;
-  padding-top: 17%;
+  padding-top: 120px;
   color: white;
   text-shadow: black 2px 2px;
   font-size: 50px;

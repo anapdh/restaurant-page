@@ -1,7 +1,7 @@
 const Navbar = () => {
 
   const navbarContent = document.createElement('div');
-  navbarContent.setAttribute('class', 'navbar');
+  navbarContent.setAttribute('class', 'navbar fixed-top');
 
   const navLinks = document.createElement('ul');
   navLinks.setAttribute('class', 'navLink')
