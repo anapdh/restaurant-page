@@ -12,6 +12,12 @@ Original project especification: [The Odin Project](https://www.theodinproject.c
 - Html, CSS, and JavaScript;
 - Git and GitHub;
 
+## Screenshots
+
+![screenshot](./assets/imgs/screenshot1.png)
+---
+![screenshot](./assets/imgs/screenshot2.png)
+
 ## Live Demo
 [Restaurant Page](https://anapdh.github.io/restaurant-page/)
 
