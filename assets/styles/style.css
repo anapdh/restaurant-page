@@ -5,3 +5,39 @@ html {
 .bg-image {
   width: 100%;
 }
+
+#menu1 {
+  background-image: url('/assets/imgs/chickenimg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 17%;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
+
+#menu2 {
+  background-image: url('/assets/imgs/barbecueimg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 17%;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}
+
+#menu3 {
+  background-image: url('/assets/imgs/fishimg.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding-top: 17%;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 50px;
+}

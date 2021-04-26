@@ -18,9 +18,9 @@ const Menu = () => {
       const list = document.createElement('li');
       list.setAttribute('class', 'nav-item list-unstyled mx-2')
 
-        const menu1 = document.createElement('h5');
+        const menu1 = document.createElement('h1');
         menu1.setAttribute('id', 'menu1')
-        menu1.setAttribute('class', 'mx-2')
+        menu1.setAttribute('class', 'text-center')
         menu1.innerHTML = 'CHICKEN';
         list.appendChild(menu1);
           let menuParagraph1 = document.createElement('p');
@@ -28,9 +28,9 @@ const Menu = () => {
           menuParagraph1.innerHTML = 'Check out our menu.';
           list.appendChild(menuParagraph1);
 
-        const menu2 = document.createElement('h5');
+        const menu2 = document.createElement('h1');
         menu2.setAttribute('id', 'menu2')
-        menu2.setAttribute('class', 'mx-2')
+        menu2.setAttribute('class', 'text-center')
         menu2.innerHTML = 'BARBECUE';
         list.appendChild(menu2);
           const menuParagraph2 = document.createElement('p');
@@ -38,9 +38,9 @@ const Menu = () => {
           menuParagraph2.innerHTML = 'Check out our menu.';
           list.appendChild(menuParagraph2);
 
-        const menu3 = document.createElement('h5');
+        const menu3 = document.createElement('h1');
         menu3.setAttribute('id', 'menu3')
-        menu3.setAttribute('class', 'mx-2')
+        menu3.setAttribute('class', 'text-center')
         menu3.innerHTML = 'FISH';
         list.appendChild(menu3);
           const menuParagraph3 = document.createElement('p');
