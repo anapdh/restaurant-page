@@ -1,6 +1,5 @@
 
 const Home = () => {
-
   const homeContent = document.createElement('div');
   homeContent.setAttribute('class', 'homepage container-fluid');
 
@@ -16,7 +15,6 @@ const Home = () => {
   homeContent.appendChild(homeText);
 
   return homeContent;
-
 };
 
 export default Home;

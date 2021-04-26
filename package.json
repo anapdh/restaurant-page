@@ -12,6 +12,10 @@
     "restaurant",
     "js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anapdh/restaurant-page.git"
+  },
   "author": "Ana Paula Hübner",
   "license": "MIT",
   "devDependencies": {

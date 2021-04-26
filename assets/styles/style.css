@@ -26,17 +26,17 @@ body {
 }
 
 .navbar {
-  background-color: rgb(92,2,0)
-}
-
-.nav-item a:hover {
-  color: rgb(211, 170, 170)
+  background-color: rgb(92, 2, 0);
 }
 
 .nav-item a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+}
+
+.nav-item a:hover {
+  color: rgb(211, 170, 170);
 }
 
 #menu1 {

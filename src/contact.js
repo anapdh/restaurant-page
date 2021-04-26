@@ -1,5 +1,4 @@
 const Contact = () => {
-
   const contactContent = document.createElement('div');
   contactContent.setAttribute('class', 'container');
 
@@ -21,7 +20,6 @@ const Contact = () => {
   contactContent.appendChild(contactParagraph);
 
   return contactContent;
-
 };
 
 export default Contact;

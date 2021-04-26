@@ -8,7 +8,7 @@ import Contact from './contact';
 function italicsBody() {
   document.body.style.fontFamily = "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
 }
-italicsBody()
+italicsBody();
 
 const content = document.getElementById('content');
 const navbar = Navbar();
