@@ -19,7 +19,7 @@ Original project especification: [The Odin Project](https://www.theodinproject.c
 ![screenshot](./assets/imgs/screenshot2.png)
 
 ## Live Demo
-[Restaurant Page](https://anapdh.github.io/restaurant-page/)
+[Restaurant Page](https://anapdh.github.io/restaurant-page/dist/index.html)
 
 ## Getting Started
 
