@@ -4,13 +4,14 @@
 
 > This project gives the DOM manipulation practice by dynamically rendering a simple restaurant homepage using only JavaScript to generate the entire contents of the website.
 
-Original project especification: [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page)
+Original project specification: [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page)
 
 
 ## Built With
 
 - Html, CSS, and JavaScript;
-- Git and GitHub;
+- Bootstrap;
+- Git and GitHub.
 
 ## Screenshots
 
@@ -21,14 +22,13 @@ Original project especification: [The Odin Project](https://www.theodinproject.c
 ## Live Demo
 [Restaurant Page](https://anapdh.github.io/restaurant-page/dist/index.html)
 
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps:
-
-### Prerequisites
+## Prerequisites
 
 - Node.js
+
+## Getting Started
+
+To get a local copy up and run the project, follow these simple example steps:
 
 ### Install
 
@@ -51,7 +51,7 @@ npm start
 
 ### Run
 
-Run the application by launching your local webserver the index.html file in the browser http://127.0.0.1:5500/dist/index.html
+Run the application by launching your local webserver and index.html file in the browser: http://127.0.0.1:5500/dist/index.html
 
 ## Authors
 
