@@ -51,7 +51,7 @@ npm start
 
 ### Run
 
-Run the application by launching your local webserver and index.html file in the browser: http://127.0.0.1:5500/dist/index.html
+Run the application by launching your local webserver in the browser: http://127.0.0.1:5500/dist/index.html
 
 ## Authors
 
